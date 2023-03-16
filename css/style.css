@@ -1,9 +1,13 @@
 :root {
     --navy-blue: #2E2F42;
     --slate: #434455;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
 }
 body {
     font-family: Roboto, sans-serif;
+    color: #434455;
 }
 .link {
     text-decoration: none;
@@ -14,17 +18,17 @@ body {
 /*.header {
 
 }*/
-.header-logo {
+.logo {
     font-family: Raleway, sans-serif;
-    color: var(--navy-blue);
+    color: var(--iris);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo-web {
-    color: #4D5AE5;
+.logo-studio {
+    color: var(--navy-blue);
 }
 /*.header-list {
 }*/
@@ -45,6 +49,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
 .first-st {
     background-color: var(--navy-blue);
 }
@@ -54,13 +62,21 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .first-st-button {
+    font-family: Roboto, sans-serif;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: var(--iris);
+    cursor: pointer;
+}
+.first-st-button:hover,
+.first-st-button:focus {
+    color: #404BBF;
 }
 /*.second-st {
 }
@@ -95,20 +111,23 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 /*.third-st-list {
 }
 .third-st-item {
 }*/
 .fourth-st {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 .fourth-st-title {
+    color: var(--navy-blue);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 /*.fourth-st-list {
 }*/
@@ -131,20 +150,43 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.portfolio-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #fff;
+    background-color: #404BBF;
+}
+.portfolio-caption {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-text {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .footer {
     background-color: var(--navy-blue);
 }
 .footer-logo {
-    font-family: Raleway, sans-serif;
-    color: #F4F4FD;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: var(--cloud);
 }
 .footer-text {
-    color: #E7E9FC;
+    color: var(--cornflower);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
